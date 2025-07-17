@@ -1,15 +1,15 @@
 import { InlineCode } from "@/once-ui/components";
 
 const person = {
-  firstName: "Selene",
-  lastName: "Yu",
+  firstName: "LEONG",
+  lastName: "WEI MEN",
   get name() {
     return `${this.firstName} ${this.lastName}`;
   },
-  role: "Design Engineer",
-  avatar: "/images/avatar.jpg",
-  location: "Asia/Jakarta", // Expecting the IANA time zone identifier, e.g., 'Europe/Vienna'
-  languages: ["English", "Bahasa"], // optional: Leave the array empty if you don't want to display languages
+  role: "Software Engineer",
+  avatar: "/images/leongweimen.jpg",
+  location: "Asia/Kuala Lumpur", // Expecting the IANA time zone identifier, e.g., 'Europe/Vienna'
+  languages: ["English", "Malay", "Mandarin"], // optional: Leave the array empty if you don't want to display languages
 };
 
 const newsletter = {
@@ -17,8 +17,8 @@ const newsletter = {
   title: <>Subscribe to {person.firstName}'s Newsletter</>,
   description: (
     <>
-      I occasionally write about design, technology, and share thoughts on the intersection of
-      creativity and engineering.
+      I occasionally write about design, technology, and share thoughts on the
+      intersection of creativity and engineering.
     </>
   ),
 };
@@ -34,7 +34,7 @@ const social = [
   {
     name: "LinkedIn",
     icon: "linkedin",
-    link: "https://www.linkedin.com/company/once-ui/",
+    link: "https://www.linkedin.com/in/leong-wei-men-3380731b0/",
   },
   {
     name: "X",
@@ -44,7 +44,7 @@ const social = [
   {
     name: "Email",
     icon: "email",
-    link: "mailto:example@gmail.com",
+    link: "mailto:tanyoke@hotmail.my",
   },
 ];
 
@@ -55,7 +55,8 @@ const home = {
   headline: <>Design engineer and builder</>,
   subline: (
     <>
-      I'm Selene, a design engineer at <InlineCode>FLY</InlineCode>, where I craft intuitive
+      I'm Leong Wei Men, a design engineer at <InlineCode>FLY</InlineCode>,
+      where I craft intuitive
       <br /> user experiences. After hours, I build my own projects.
     </>
   ),
@@ -74,16 +75,20 @@ const about = {
   },
   calendar: {
     display: true,
-    link: "https://cal.com",
+    link: "https://cal.com/leong-erddhp",
   },
   intro: {
     display: true,
     title: "Introduction",
     description: (
       <>
-        Selene is a Jakarta-based design engineer with a passion for transforming complex challenges
-        into simple, elegant design solutions. Her work spans digital interfaces, interactive
-        experiences, and the convergence of design and technology.
+        LEONG WEI MEN is a Malaysia-based software engineer with hands-on
+        experience in both Singaporean and Malaysian working cultures.
+        Specializing in mobile application development using React Native and
+        Flutter, Wei Men is passionate about building seamless, high-performance
+        mobile experiences. He transforms complex requirements into intuitive,
+        scalable solutions, bridging the gap between design and technology to
+        deliver user-centric, cross-platform applications.
       </>
     ),
   },
@@ -92,41 +97,85 @@ const about = {
     title: "Work Experience",
     experiences: [
       {
-        company: "FLY",
-        timeframe: "2022 - Present",
-        role: "Senior Design Engineer",
+        company: "Itvantages ",
+        timeframe: "April 2024 - December 2024",
+        role: "Mobile Application Developer",
         achievements: [
           <>
-            Redesigned the UI/UX for the FLY platform, resulting in a 20% increase in user
-            engagement and 30% faster load times.
-          </>,
-          <>
-            Spearheaded the integration of AI tools into design workflows, enabling designers to
-            iterate 50% faster.
+            Consistently ensured well-functioning applications by testing the
+            app’s functionality after each dependency upgrade and resolving any
+            arising complex technical issues promptly.
           </>,
         ],
         images: [
           // optional: leave the array empty if you don't want to display images
           {
-            src: "/images/projects/project-01/cover-01.jpg",
-            alt: "Once UI Project",
+            src: "/images/projects/project-01/itvantages/appStock.png",
+            alt: ".. Project",
             width: 16,
             height: 9,
           },
         ],
       },
       {
-        company: "Creativ3",
-        timeframe: "2018 - 2022",
-        role: "Lead Designer",
+        company: "ShipsFocus",
+        timeframe: "2022 - 2024",
+        role: "Mobile Application Developer",
         achievements: [
           <>
-            Developed a design system that unified the brand across multiple platforms, improving
-            design consistency by 40%.
+            Collaborated with product managers and designers to translate
+            requirements into technical specifications, ensuring timely and
+            successful project deliveries.
           </>,
+        ],
+        images: [
+          // optional: leave the array empty if you don't want to display images
+          {
+            src: "/images/projects/project-01/shipsfocus/tiansanIpadMap.png",
+            alt: ".. Project",
+            width: 16,
+            height: 9,
+          },
+        ],
+      },
+      {
+        company: "Lignar Lab",
+        timeframe: "2021 - 2022",
+        role: "Full Stack Developer",
+        achievements: [
           <>
-            Led a cross-functional team to launch a new product line, contributing to a 15% increase
-            in overall company revenue.
+            Collaborated with the UX/UI team to optimize the user interface and
+            improvement in user satisfaction. Actively participated in
+            brainstorming and knowledge-sharing initiatives, providing
+            innovative solutions to challenges and conducting workshops on new
+            tools and techniques, leading to a more efficient team and improved
+            workflows.
+          </>,
+        ],
+        images: [],
+      },
+      {
+        company: "Marslab Solution",
+        timeframe: "2021 - 2021",
+        role: "Software Engineering",
+        achievements: [
+          <>
+            Built and maintained mobile applications for clients. Experience in
+            implementing state and props in React Native projects. Experience in
+            maintaining mobile applications in Flutter development.
+          </>,
+        ],
+        images: [],
+      },
+      {
+        company: "Marslab Solution",
+        timeframe: "2020 - 2020",
+        role: "Intern-Software Engineering",
+        achievements: [
+          <>
+            Experience in Visual Studio suite of products . Exposure to React
+            Native for building web apps. Exposure to WordPress Elementor for
+            building websites. Experience working for a startup.
           </>,
         ],
         images: [],
@@ -138,13 +187,13 @@ const about = {
     title: "Studies",
     institutions: [
       {
-        name: "University of Jakarta",
-        description: <>Studied software engineering.</>,
+        name: "Southern University College",
+        description: <>Studied Bachelor of software engineering.</>,
       },
-      {
-        name: "Build the Future",
-        description: <>Studied online marketing and personal branding.</>,
-      },
+      // {
+      //   name: "Southern University College",
+      //   description: <>Studied Foundation in Art.</>,
+      // },
     ],
   },
   technical: {
@@ -153,17 +202,19 @@ const about = {
     skills: [
       {
         title: "Figma",
-        description: <>Able to prototype in Figma with Once UI with unnatural speed.</>,
+        description: (
+          <>Bridge the gap: Figma designs, shipped as working code.</>
+        ),
         // optional: leave the array empty if you don't want to display images
         images: [
           {
-            src: "/images/projects/project-01/cover-02.jpg",
+            src: "/images/projects/project-01/itvantages/stockFigma.png",
             alt: "Project image",
             width: 16,
             height: 9,
           },
           {
-            src: "/images/projects/project-01/cover-03.jpg",
+            src: "/images/projects/project-01/lignar/lignarFigma.png",
             alt: "Project image",
             width: 16,
             height: 9,
@@ -171,12 +222,17 @@ const about = {
         ],
       },
       {
-        title: "Next.js",
-        description: <>Building next gen apps with Next.js + Once UI + Supabase.</>,
+        title: "React Native",
+        description: (
+          <>
+            I build performant cross-platform apps with modern React Native,
+            bridging design and engineering.
+          </>
+        ),
         // optional: leave the array empty if you don't want to display images
         images: [
           {
-            src: "/images/projects/project-01/cover-04.jpg",
+            src: "/images/projects/project-01/shipsfocus/yorksg.png",
             alt: "Project image",
             width: 16,
             height: 9,
